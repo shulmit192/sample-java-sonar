@@ -32,5 +32,5 @@ jobs:
           mvn clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
             -Dsonar.projectKey=Sample-Java-Sonar-Lab \
             -Dsonar.projectName="Sample Java Sonar Lab" \
-            -Dsonar.host.url=http://localhost:9000 \
+            -Dsonar.host.url=http://sonarcloud.io \
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
